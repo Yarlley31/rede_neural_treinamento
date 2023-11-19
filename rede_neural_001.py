@@ -32,5 +32,7 @@ layer2_output = sigmoid(np.dot(layer1_output, peso2) + bia2)
 
 output = sigmoid(np.dot(layer2_output, peso3) + bia3)
 
+print("-"*38)
 print("Entrada de rede neural:", input_data)
 print("Saída de rede neural:", output)
+print("-"*38)
